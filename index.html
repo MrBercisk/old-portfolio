@@ -57,6 +57,19 @@
     />
   </head>
   <body>
+    <div id="loader">
+      <div id="wrapperload">
+        <div class="element">
+          <h3>Selamat Datang di Web Portfolio</h3>
+        </div>
+        <div class="element">
+          <h3>Bimo Satrio Putra P</h3>
+        </div>
+        <div class="element">
+          <h3>Front End Web Developer</h3>
+        </div>
+      </div>
+    </div>
     <!-- Main Container -->
     <div class="main-container">
       <!-- Aside Start -->
@@ -72,13 +85,13 @@
             <a href="#home" class="active"><i class="fa fa-home"></i>Home</a>
           </li>
           <li>
-            <a href="#about"><i class="fa fa-user"></i>About</a>
+            <a href="#about"><i class="fa fa-user"></i>Tentang</a>
           </li>
           <li>
             <a href="#portfolio"><i class="fa fa-briefcase"></i>Portfolio</a>
           </li>
           <li>
-            <a href="#contact"><i class="fa fa-comments"></i>Contact</a>
+            <a href="#contact"><i class="fa fa-comments"></i>Kontak</a>
           </li>
         </ul>
       </div>
@@ -91,11 +104,12 @@
             <div class="row">
               <div class="home-info">
                 <h3 class="hello">
-                  Hello, My Name is
+                  Hello, Nama saya adalah
                   <span class="name">Bimo Satrio Putra Pradana</span>
                 </h3>
                 <h3 class="myprofession">
-                  I'm a <span class="typing">Front End Developer</span>
+                  Saya adalah
+                  <span class="typing">Front End Web Developer</span>
                 </h3>
                 <p>
                   Saya adalah Mahasiswa tingkat akhir semester 5 jurusan D3
@@ -117,7 +131,7 @@
           <div class="container">
             <div class="row">
               <div class="section-title padd-15">
-                <h2>About Me</h2>
+                <h2>Tentang Saya</h2>
               </div>
             </div>
             <div class="row">
@@ -125,7 +139,7 @@
                 <div class="row">
                   <div class="about-text padd-15">
                     <h1>
-                      Hi I'm Bimo Satrio and <span>Front End Developer</span>
+                      Hi Saya Bimo Satrio dan <span>Front End Developer</span>
                     </h1>
                     <p>
                       Saya adalah Mahasiswa tingkat akhir semester 5 jurusan D3
@@ -145,7 +159,10 @@
                         <p>Umur : <span>22</span></p>
                       </div>
                       <div class="info-item padd-15">
-                        <p>Website : <span>www.bim.com</span></p>
+                        <p>
+                          Github :
+                          <span>https://github.com/MrBercisk</span>
+                        </p>
                       </div>
                       <div class="info-item padd-15">
                         <p>Email: <span>bimosatrio814@gmail.com</span></p>
@@ -162,7 +179,11 @@
                     </div>
                     <div class="row">
                       <div class="buttons padd-15">
-                        <a href="#" class="btn btn-danger">Download CV</a>
+                        <a
+                          href="/document/SI_12201068_Bimo Satrio Putra Pradana.pdf"
+                          class="btn btn-danger"
+                          >Download CV</a
+                        >
                         <a href="#contact" class="btn btn-primary">Hire Me</a>
                       </div>
                     </div>
@@ -291,7 +312,7 @@
             </div>
             <div class="row">
               <div class="portfolio-heading padd-15">
-                <h2>My Last Projects :</h2>
+                <h2>Project :</h2>
               </div>
             </div>
             <div class="row">
@@ -327,17 +348,17 @@
           <div class="container">
             <div class="row">
               <div class="section-title padd-15">
-                <h2>Contact</h2>
+                <h2>KONTAK</h2>
               </div>
             </div>
-            <h3 class="contact-title padd-15">Have You Any Questions ?</h3>
-            <h4 class="contact-sub-title padd-15">I'M AT UR SERVICES</h4>
+            <h3 class="contact-title padd-15">Ada Pertanyaan ?</h3>
+            <h4 class="contact-sub-title padd-15">KONTAK SAYA</h4>
             <div class="row">
               <!-- Contact Info item start-->
               <div class="contact-info-item padd-15">
                 <div class="icon"><i class="fa fa-phone"></i></div>
-                <h4>Call Us on</h4>
-                <p>+82 81291204919</p>
+                <h4>No.Telp</h4>
+                <p>+62 81291204919</p>
               </div>
               <!-- Contact Info item end-->
               <!-- Contact Info item start-->
@@ -345,8 +366,8 @@
                 <div class="icon">
                   <i class="fa fa-map-marker-alt"></i>
                 </div>
-                <h4>Office</h4>
-                <p>Purworejo</p>
+                <h4>Alamat</h4>
+                <p>Jl. Diponegoro, Purworejo, Jawa Tengah</p>
               </div>
               <!-- Contact Info item end-->
               <!-- Contact Info item start-->
@@ -359,17 +380,15 @@
               <!-- Contact Info item start-->
               <div class="contact-info-item padd-15">
                 <div class="icon">
-                  <i class="fa fa-globe-europe"></i>
+                  <i class="fab fa-github"></i>
                 </div>
-                <h4>Website</h4>
-                <p>www.domain.com</p>
+                <h4>Github</h4>
+                <p>https://github.com/MrBercisk</p>
               </div>
               <!-- Contact Info item end-->
             </div>
-            <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
-            <h4 class="contact-sub-title padd-15">
-              I'M VERY RESPONSIVE TO MESSAGES
-            </h4>
+            <h3 class="contact-title padd-15">KIRIM PESAN</h3>
+            <h4 class="contact-sub-title padd-15">SILAHKAN KIRIM PESAN</h4>
             <!-- Contact Form -->
             <div class="row">
               <div class="contact-form padd-15">
@@ -492,36 +511,5 @@
     ></script>
     <script src="js/script.js"></script>
     <script src="js/style-switcher.js"></script>
-    <script>
-      const scriptURL =
-        "https://script.google.com/macros/s/AKfycbztFAdMJATF23pr1kiOS3A8y0-waCuBC0xBPeVNhpKrtWaxxg0NjR1mDtHrAM5Ur_47UQ/exec";
-      const form = document.forms["bimo-contact-form"];
-      const btnKirim = document.querySelector(".btn-kirim");
-      const btnLoading = document.querySelector(".btn-loading");
-      const myAlert = document.querySelector(".my-alert");
-
-      form.addEventListener("submit", (e) => {
-        //jangan jalankan fungsi default
-        e.preventDefault();
-        //ketika tombol submit diklik
-        //tampilkan tombol lodaing,hilangkan tombol kirim
-        btnLoading.classList.toggle("d-none");
-        btnKirim.classList.toggle("d-none");
-
-        //jalankan fetch
-        fetch(scriptURL, { method: "POST", body: new FormData(form) })
-          .then((response) => {
-            //tampilkan tombol kirim,hilangkan tombol loading
-            btnLoading.classList.toggle("d-none");
-            btnKirim.classList.toggle("d-none");
-            //tampilkan alert
-            myAlert.classList.toggle("d-none");
-            //Reset form
-            form.reset();
-            console.log("Success!", response);
-          })
-          .catch((error) => console.error("Error!", error.message));
-      });
-    </script>
   </body>
 </html>
